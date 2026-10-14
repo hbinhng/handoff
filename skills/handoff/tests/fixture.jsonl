@@ -1,0 +1,12 @@
+{"type":"user","message":{"content":"real human question about the sweep"}}
+{"type":"user","message":{"content":[{"type":"text","text":"<system-reminder>injected noise</system-reminder>"}]}}
+{"type":"user","message":{"content":[{"type":"text","text":"<task-notification>\n<task-id>abc</task-id>\n<summary>background done</summary>\n</task-notification>"}]}}
+{"type":"assistant","message":{"content":[{"type":"text","text":"main thread prose"}]}}
+{"type":"assistant","isSidechain":true,"message":{"content":[{"type":"text","text":"subagent prose"}]}}
+{"type":"assistant","message":{"content":[{"type":"tool_use","name":"Bash","input":{"command":"grep -rn readyAt"}}]}}
+{"type":"assistant","message":{"content":[{"type":"tool_use","name":"Edit","input":{"file_path":"a.ts","old_string":"x","new_string":"y"}}]}}
+{"type":"user","message":{"content":[{"type":"text","text":"operator note about the seeded tenants"},{"type":"tool_result","content":"20000 lines of file body that must not appear"}]}}
+{"type":"system","subtype":"compact_boundary","content":"Conversation compacted"}
+{"type":"system","subtype":"compact_boundary","content":"Conversation compacted"}
+{"type":"system","subtype":"turn_duration"}
+{"type":"user","subtype":"compact_boundary","message":{"content":"non-system compact_boundary must not count"}}

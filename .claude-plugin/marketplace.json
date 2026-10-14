@@ -1,0 +1,6 @@
+{
+  "name": "handoff",
+  "description": "Compaction-proof session handoffs for Claude Code",
+  "owner": { "name": "hbinhng", "url": "https://github.com/hbinhng" },
+  "plugins": [{ "name": "handoff", "source": "./" }]
+}
