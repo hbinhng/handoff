@@ -25,6 +25,8 @@ docs/handoffs/
 
 Requires Node.js 20+ on `PATH` (for the transcript extractor and the Stop hook).
 
+Claude Code only. Codex and Grok will load `.claude-plugin/` too, but the transcript guard and the Stop hook read Claude Code's transcript format and hook payload, so they silently do nothing there.
+
 ## The ledger
 
 Handoffs live at `docs/handoffs/<slug>.md`, where the slug is derived mechanically from the work-stream name, so two agents land on the same file. Five triggers, one line each, appended immediately:
